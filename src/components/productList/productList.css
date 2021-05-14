@@ -1,0 +1,31 @@
+.productListView{
+    position:relative;
+    margin: 40px;
+}
+.productListItem{
+    width:800px;
+    border: 1px solid #efefef;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    cursor : pointer;
+}
+.productListItemImg{
+    width:300px;
+    height: 300px;
+    margin-right:10px;
+
+}
+.productListItemLabels{
+    display:flex;
+    flex-direction: column;
+    margin-left:10px;
+
+}
+.productListItemPrice, .productListItemTitle{
+    display:inline-block;
+}
+.productListItemTitle{
+    font-size : 20px;
+    font-weight:600;
+}
