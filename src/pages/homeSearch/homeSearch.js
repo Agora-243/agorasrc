@@ -1,20 +1,20 @@
 import './homeSearch.css';
-import {React, useState} from 'react';
+import React from 'react';
 import Navbar from '../../components/navBar/navbar';
 import Footer from '../../components/footer/footer';
 import ProductCard from '../../components/Product/product-card';
-import ProductList from '../../components/productList/productList';
-
+import ProductList from '../../components/productList/productList-test';
+import { Fragment } from 'react';
 function HomeSearch (){
     
         return (
-            <div id='HomeSearch'>
+            <Fragment id='HomeSearch'>
                 <Navbar />
                 <ProductList />
                 <ProductCard />
                 <Footer />
                 
-            </div>
+            </Fragment>
 
         );
     
