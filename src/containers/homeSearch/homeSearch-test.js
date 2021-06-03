@@ -69,10 +69,11 @@ function HomeSearch (){
                         </select>
                         <input id="search-bar" type="text" onChange = {e => updateSearchTerm(e)} />
                      
-                        <div id="search-icon">
-                            <button  onClick={() => setUrl(`https://ali-express1.p.rapidapi.com/search?query=${searchTerm}&page=1`)}>
-                                         <GoSearch  style={{ fontSize: 20 }} /></button>
+                        <a href ='#' onClick={() => setUrl(`https://ali-express1.p.rapidapi.com/search?query=${searchTerm}&page=1`)}><div id="search-icon">
+                              
+                                         <GoSearch  style={{ fontSize: 20 }} />
                         </div>
+                        </a>
                         <Link to="/register">
                             <button id="inscrire">S'inscrire</button>
                         </Link>
