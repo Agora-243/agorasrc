@@ -1,0 +1,220 @@
+#landing  h1 {
+    
+}
+#main-container {
+    position: relative;
+}
+#landing {
+    position: relative;
+    width: 100%;
+    height: 140vh;
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0) 5.56%, rgba(0, 0, 0, 0.428636) 41.42%, rgba(0, 0, 0, 0.7954) 88.89%), url('tamanna-rumee-eD1RNYzzUxc-unsplash.jpg');
+    filter: blur(0px);
+    background-size: cover;
+}
+#landing-content {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+#slogan {
+    position: absolute;
+    top: 22%;
+    text-align: center;
+    color: white;
+}
+#slogan h1 {
+    font-family: 'Kaushan Script';
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 4em;
+    text-shadow: 0 0 8px  rgb(0, 0, 0);
+}
+#slogan #sub-slogan1 {
+    font-family: 'Open Sans';
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 24px  rgb(26, 12, 12);
+}
+#slogan #sub-slogan2 {
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: 'Caveat';
+}
+#slogan #btn-slogan {
+    font-family: 'Poppins';
+    background-color: transparent;
+    width: 220px;
+    height: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.800);
+    font-size: 18px;
+}
+.shopping-cart {
+    font-size: 25px;
+    vertical-align: -0.2vw;
+    margin-left: 2px;
+}
+/*Section principale*/
+#decouvrir {
+    background: #1B1C23;
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+}
+#decouvrir h1  {
+    margin: 0;
+    color: white;
+    padding-top: 30px;
+}
+#decouvrir h1 .bag  {
+    font-size: 2.4em;
+    vertical-align: -1.3vw;
+}
+#decouvrir hr {
+    margin-top: 0;
+    display: inline-block;
+    height: 6px;
+    border-radius: 8px;
+    border: 0;
+}
+#decouvrir hr.gris {
+    width: 360px;
+    background-color: white;
+}
+#decouvrir hr.orange {
+    width: 70px;
+    background-color: #FF9900;
+}
+hr {
+    border: 1px solid rgba(88, 68, 68, 0.158);
+    width: 95%;
+}
+.separateurs {
+    text-align: center;
+}
+.separateurs span {
+    margin-right: -15px;
+    display: inline-block;
+    width: 37px;
+    height: 4px;
+    background-color: #1b1c23b7;
+    border-radius: 20px;
+    transform: rotate(90deg);
+}
+.separateurs span.separateur {
+    width: 27px;
+}
+div#cat1 {
+    padding: 20px 0 70px 0px;
+}
+div#cat1 h3 {
+    font-size: 1.7em;
+    color: rgb(236, 229, 229);
+    margin-left: 60px;
+}
+div#cat2 {
+    padding: 20px 0 70px 0px;
+}
+div#cat2 h3 {
+    font-size: 1.7em;
+    color: #1b1c23;
+    margin-left: 60px;
+}
+div#cat3 {
+    padding: 20px 0 80px 0px;
+}
+div#cat3 h3 {
+    font-size: 1.7em;
+    color: #1b1c23;
+    margin-left: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#section-container1 {
+    position: relative;
+}
+#section-container2 {
+    background: linear-gradient(360deg, #1B1C23 54.64%, #1B1C23 93.06%);
+    width: 100%;
+    height: 100vh;
+}
+#section-container2 h1 {
+    font-family: 'Poppins';
+    color: rgb(236, 229, 229);
+    text-align: center;
+    margin-top: 0;
+    font-size: 2.5em;
+    padding-top: 25px;
+}
+#section-container2 hr {
+    height: 4px;
+    width: 500px;
+    background-color: rgb(236, 229, 229);
+    border-radius: 5px;
+}
+
+
+
+
+
+
+.custom-shape-divider-top-1621093012 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: -1;
+}
+
+.custom-shape-divider-top-1621093012 svg {
+    position: relative;
+    display: block;
+    width: calc(172% + 1.3px);
+    height: 140px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1621093012 .shape-fill {
+    fill: #1B1C23;
+}
+
+/*Bottom waves*/
+.custom-shape-divider-bottom-1620848659 {
+    z-index: -100;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1620848659 svg {
+    position: relative;
+    display: block;
+    width: calc(197% + 1.3px);
+    height: 175px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1620848659 .shape-fill {
+    fill: #1B1C23;
+}

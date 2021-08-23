@@ -1,0 +1,33 @@
+#footer-container {
+    padding-top: 25px;
+    display: flex;
+    height: 310px ;
+    width: 100%;
+    background-color: #1B1C23;
+    align-content: center;
+}
+#footer-container > #droits, #informations, #aide, #rx-sociaux {
+    flex: 1;
+    padding-left: 45px;
+    color: #FF9900;
+}
+.lien {
+    color: white;
+    text-decoration: none;
+}
+.lien .iconsF {
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+button#inscrireF {
+    background-color: #E52F20;
+    cursor: pointer;
+    font-family: 'Maven Pro';
+    border: 0px solid grey;
+    color: white;
+    height: 35px;
+    width: 95px;
+    border-radius: 5px;
+    margin-top: 15px;
+}

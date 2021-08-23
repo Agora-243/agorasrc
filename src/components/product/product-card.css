@@ -1,0 +1,40 @@
+#card-container {
+    display: inline-block;
+    margin-left: 130px;
+    font-family: 'Poppins';
+    width: 273px;
+    height: 359px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(47, 48, 56, 0.404);
+    background-color: white;
+}
+#card-footer {
+    width: 100%;
+    height: 35%;
+    overflow: hidden;
+}
+#card-footer #labelle {
+    width: 100%;
+    height: 60%;
+    overflow-y: hidden;
+    margin: 5px 1px;
+}
+#card-footer #prise span {
+    margin-left: 5px;
+}
+#card-footer #prise button {
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Maven Pro';
+    border: 0px solid grey;
+    color: white;
+    height: 35px;
+    width: 95px;
+    border-radius: 5px;
+    background-color: #FF9900;
+    margin-right: 5px;
+    float: right;
+}
+.iconsP {
+    vertical-align: -0.2vw;
+}
